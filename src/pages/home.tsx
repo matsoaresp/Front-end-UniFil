@@ -3,6 +3,7 @@ import { Container } from "../components/Container"
 import { Card } from "../components/Card"
 import { Button } from "../components/Button"
 import { Carrossel } from "../components/Carrossel"
+import { Sidebar } from "../components/Sidebar"
 
 export function Home() {
     return (
@@ -10,12 +11,12 @@ export function Home() {
             <Header />
             <Container>
                 <h1>Apps</h1>
+                <Sidebar>
+
+                </Sidebar>
 
                 <section>
                     <h2>Categorias</h2>
-
-                    <Card />
-                    <Card />
                     <Card />
                 </section>
 
