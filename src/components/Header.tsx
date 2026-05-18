@@ -9,10 +9,10 @@ return (
         </div>
         <div>
             <ul>
-                <li>A</li>
-                <li>B</li>
-                <li>c</li>
-                <li>D</li>
+                <li>Projetos</li>
+                <li>Categorias</li>
+                <li>Contato</li>
+                <li>Sobre</li>
             </ul>
         </div>
     </header>

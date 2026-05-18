@@ -1,3 +1,4 @@
+import { Button } from "./Button";
 
 export function Card () {
     return (
@@ -5,7 +6,7 @@ export function Card () {
          <div>
             <h2>Card</h2>
             <p>Descrição</p>
-            <button>Ver mais</button>
+            <Button/>
         </div>
         </>
        

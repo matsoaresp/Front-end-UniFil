@@ -2,7 +2,7 @@ export function Button (){
 
     return (
         <>
-            <button></button>
+            <button>Visualizar</button>
         </>
     )
 }
