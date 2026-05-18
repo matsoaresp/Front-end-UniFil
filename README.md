@@ -1,4 +1,4 @@
-# Projeto indefinido
+# Projeto AppStore
 
 Projeto criado com **Vite + React + TypeScript** com o objetivo de desenvolver um website para a disciplina de Desenvolvimento Front-end.
 
