@@ -1,20 +1,16 @@
-import { Button } from "./Button";
-
 export function Card() {
   return (
-    <div className="flex min-h-screen items-start justify-center bg-gray-100 pt-10">
-      <div className="h-96 w-full max-w-[1200px] rounded-2xl bg-white p-8 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl">
-        <h2 className="mb-4 text-center text-3xl font-bold text-gray-800">
-          Card
-        </h2>
-
-        <p className="mb-6 text-center text-lg text-gray-600">
-          Descrição do card com um conteúdo simples e estilizado.
-        </p>
-
-        <div className="flex justify-center">
-          <Button />
-        </div>
+    <div className="w-full rounded-2xl bg-white p-6 shadow-lg md:p-8">
+      <h2 className="mb-4 text-center text-2xl font-bold text-gray-800 md:text-3xl">
+        Card
+      </h2>
+      <p className="mb-6 text-center text-sm text-gray-600 md:text-base">
+        Descrição do card com um conteúdo simples e estilizado.
+      </p>
+      <div className="flex justify-center">
+        <button className="rounded-lg bg-black px-5 py-2 text-white transition hover:bg-gray-800">
+          Visualizar
+        </button>
       </div>
     </div>
   );

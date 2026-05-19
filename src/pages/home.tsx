@@ -1,25 +1,24 @@
-import { Container } from "../components/Container"
-import { Card } from "../components/Card"
-import { Carrossel } from "../components/Carrossel"
-import { Sidebar } from "../components/Sidebar"
+import { Container } from "../components/Container";
+import { Card } from "../components/Card";
+import { Carrossel } from "../components/Carrossel";
+import { Sidebar } from "../components/Sidebar";
 
 export function Home() {
-    return (
-        <>
-            <Container>
-                
-                <Sidebar>
+  return (
+    <Container>
+      <div className="flex min-h-screen bg-gray-200">
+        
+        <Sidebar />
 
-                </Sidebar>
+        <main className="flex-1 p-4 md:p-8">
+          <Card />
 
-                <section>
-                    <Card />
-                </section>
+          <div className="mt-8">
+            <Carrossel />
+          </div>
+        </main>
 
-                <section>
-                    <Carrossel />
-                </section>
-            </Container>
-        </>
-    )
+      </div>
+    </Container>
+  );
 }
